@@ -308,7 +308,7 @@ A key concepts within statistics is to analyse how variation in a value can be r
 
 A common typology of heterogeneity is that from Cochrane institute which distinguished between clinical, methodological and statistical heterogeneity. Clinical heterogeneity is the variation in effects that is introduced by the participants within a study, the methodological heterogeneity is variation introduced by the study design, and the statistical heterogeneity is the statistically quantified variation in effects\\results.
 
-Similarly, Weiss 2014 provides a similar but slightly different view of how to evaluate heterogeneity in the effect of programs. They, like Cochrane argue that heterogeneity has tree sources: Treatment contrast, within participants moderators, and contextual moderators.
+Weiss et al 2014 provides a similar but slightly different view of how to evaluate heterogeneity in the effect of programs. Like Cochrane, they argue that heterogeneity has tree sources: Treatment contrast, within participants moderators, and contextual moderators.
 
 Treatment contrast refer to the strength of the measured effect. Consider that we have a completely valid concept X, but when we study X we can get either large X or small X dependent on the stimuli we use to elicit effects. Say we want to examine pain and we agree that this can be measured by putting your hand in cold water, the degree of coldness can be a source of difference in effects that then contributes to unexpected heterogeneity observed across a set of k studies examining this treatment. This is an interesting source of heterogeneity since the concept might be the same, but the true effect is not.
 
@@ -316,7 +316,7 @@ Within participants moderators refer to variation coming from individual partici
 
 Contextual moderating factors are factors external to the participants and separate from the stimuli provided to elicit the effect. They cover contextual aspects of the ''study environment'' that can cause potential differences in effects. For example, say that the coldness of water could be moderated by the size of the cup you place your hand into, and that our experiment uses multiple cups which vary in size. This could artificially introduce variation in the effect due to the context of the measurement and again provide heterogeneity.
 
-It is important to note that the contexts of these perspectives on heterogeneity differs, one is from medicin and the other from political science and policy. However, they both have striking similarities. The main difference is that Cochrane places less weight on stimuli strength, which presumably would fall into methodological heterogeneity.
+It is important to note that the contexts of these perspectives on heterogeneity differs, one is from medicine and the other from political science and policy. However, they both have striking similarities. The main difference is that Cochrane places less weight on stimuli strength, which presumably would fall into methodological heterogeneity.
 
 Cook, Campbell and Shadish makes the point that experiments, which are often used in psychology and medicine but cannot always be used in policy research, are highly local but have very general aspirations. That is, an experiment answers a very specific question about a specific group of people at a specific point in time. As such, there is a conflict between the aim of a scientific inquiry and that which is answerable through an experiment. However, if the construct we examine through our experiment is valid, we can make these generalizations more confidently.
 
@@ -369,3 +369,5 @@ Cook, Campbell and Shadish makes the point that experiments, which are often use
 12. **Is it fair to think about heterogeneity as unaccounted for variation? Or perhaps unexpected variance?**
 
 13. **Are the Cochrane categories(clinical, methodological, statistical) of heterogeneity correct? How does it relate to Weiss?**
+
+14. **Why are random effects assumed to be normal?**

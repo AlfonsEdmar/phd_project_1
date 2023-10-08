@@ -1,0 +1,13 @@
+---
+title: "thought experiment"
+format: pdf
+editor: visual
+---
+
+## Definitions
+
+A true effect is the relationship between two or more valid constructs. The interaction of these constructs is what causes the effect. We have constructs A and B which make true effect C, We also have constructs X and Y which causes effect Z. How do i know which true effect the observed effects k belong to?
+
+Could their be such a thing as construct heterogeneity and methodological heterogeneity? that might be a simple way of expressing it. If we have heterogeneity coming from the fact that the higher order constructs in the studies are different vs heterogeneity coming from the fact that the methods are different. So the constructs providing the observed effect are the same, but the method makes the effect incomparable. Perhaps design heterogeneity would be better, say we only have one construct that we are interested in, eg intelligence, and the effect we are interested in is improved intelligence from training. If we have different measures for intelligence and different training interventions we will have variation in the effects since our model is imprecise.
+
+Maybe what i don't like about clinical heterogeneity is that they lump intervention and individuals together. I do not think they are a comparable source of heterogeneity. Individuals have some type of randomness associated with them but intervention is very systematic and design based.

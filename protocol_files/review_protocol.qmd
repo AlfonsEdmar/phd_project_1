@@ -1,0 +1,54 @@
+---
+title: "A Scoping Review Protocol of Methodological Heterogeneity in Psychological Reviews and Meta-Analyses"
+author: B.A Edmar
+format: pdf
+editor: source
+bibliography: protocol_references.bib
+---
+
+
+# Introduction
+
+An often overlooked problem in meta-analytic studies within psychology is the handling of heterogeneity (Linden and Hönekopp, 2021). Heterogeneity occurs when the pooled effects contain more variation than expected from random sampling. This is often expressed with the $\tau^2$ statistic, which represent the between-study variation observed in the sample. The potential cause of the observed heterogeneity can be attributed to the fact that multiple ''true'' effects are observed in the data and therefore more variation than expected is present within the sample. The presence of multiple true effects can be caused by the presence of subgroups of effects that remain unadjusted for through meta-regression or subgroup analyses. These subgroups of effects can be caused by a multitude of things such as differing research methodologies, populations and other design based matters.
+
+However, statistical heterogeneity is not *necessarily* present even if studies are methodologically diverse or have fundamentally different measurements. In those cases we make the decision to exclude effects from the analysis based on some qualitative metric. The framework for these decisions are are constructed through the establishment of exclusion criteria a priori to screening the data [@higgins_defining_2019]. With the exclusion criteria researchers define how to decide wheat studies that are comparable, and what studies that are not comparable. However, sometimes the presence of statistical heterogeneity can cause a reevaluation whether studies are comparable or not, and in these cases an additional qualitative assessment of comparability is needed.
+
+# The Question
+
+The main goal of this review is to clarify the concept of methodological heterogeneity in systematic reviews and meta-analyses in psychology. Specifically, we want to examine the problem of comparability across pooled effects and how researchers deal with problematic methodological diversity. Another way to phrase this question could be: at what point are qualitative differences between scientific inquiries large enough that we conclude that the effects we are measuring are different, regardless of whether a measurable difference is present? In essence, we want to know what causes the exclusion of a study from a meta-analysis due to perceived methodological heterogeneity.
+
+In order to answer this question a scoping review of the literature is needed. The literature in this case being recently published articles within the field of psychological science. Given that our goal is to clarify the concept of methodological heterogeneity, identify gaps in our knowledge, and asses how the execusion of research is impacted by the presence of methodological heterogeneity, a scoping review is preferable to a systematic review[@munn_systematic_2018]. An alternative to a scoping review could be a rapid review, that being a feasibility constrained systematic review, however, it is not the feasibility of our investigation that informs our method - it is the underlying research question. Since we are mainly concerned with the qualia of methodological heterogeneity, a quantitative assessment of the literature does not target the question.
+
+# Elegability Criteria 
+
+To be included in this systematic scoping review, any document needs to be a systematic review or meta-analysis within psychology published after 2021 to capture recently published studies. Additionally, documents must have an applied or theoretical research question that requires the synthesis of evidence across multiple studies to be included. This means that studies posing meta-research questions will be excluded. An example of such a quastion would be an evaluation of the prevelance of open-science practices or replications within a given field. 
+
+Scoping reviews investigate a population and a concept in a specific context. For this review the population under investigation are published systematic reviews and meta-analyses in psychology. The concept that we want to investigate is the handling of methodological diversity across studies. The context we are interested in is recently published documents. We are not interested how this has been done historically but how it is currenlty being done.   
+
+# Methods 
+This review will follow the guidelines provided by JBI to the greatest extent possible for the research question at hand. The manuscript will follow the Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR)(Tricco et al., 2018).
+
+## Search Strategy
+
+The JBI[@noauthor_jbi_2020] guidelines state that at least two databases should be subject to an initial search, thereafter a second search using all identified keywords should be conducted, and then the reference list of all identified sources should be consulted for additional documents. While these guidelines are sound, following this strategy is not feasible in our case due to the breadth of the literature we are interested in. Therefore we deviate from the JBI manual in this area.
+
+Since the field we are interested in is psychology, searching databases outside psychology will have to include field limitations that would not be needed in psychology specific data bases such as psychInfo. Therefore, we will only search psychInfo, since that database provides us with a natural exclusion of documents outside the field of psychology. As an extension of this stratergy is to identify PsychInfo classification categories that can provide a representative sample of papers across many sub-fields within psychology. To this end we limit our search to papers within the following categories: Physiological Psychology and neuroscience (2500), Developmental Psychology (2800), Social Psychology (3000), Personality Psychology (3100), Organizational Psychology (3600), Cognitive psychology and Intelligent systems (4100), Forensic psychology & Legal Issues (4200). These categories are selected to ensure that a representative sample of different areas of psychology are searched for while limiting the number of search results.
+
+## Search Terms 
+The search was conducted through the data base Ovid with the following search terms: 	
+''meta-analy*.mp. or exp Meta Analy*/ or systematic review.mp.''. This terms is then limited to our specified categories using the following search syntax:''limit 1 to (english language and (2500 physiological psychology & neuroscience or 2800 developmental psychology or 3000 social psychology or 3100 personality psychology or 3600 organizational psychology & human resources or 4100 cognitive psychology & intelligent systems or 4200 forensic psychology & legal issues) and yr="2022 -Current")''. 
+
+
+# Data Extraction
+
+An excel code book for what elements to extract from each study will be constructed. This code book will cover three main themes: general study characteristics, the presence of methodological heterogeneity in the study, and how the authors dealt with the observed heterogeneity. Across these three themes we will include notation of the aims of the study, the sub-field of the study, the population examined, the methodology used, outcome variables, heterogeneity measures and adjustment, exclusion criteria, findings/conclusion of the study, etc.
+
+# Data Analysis
+
+The analysis of the data will consist of summarizing the motivation for the various choices made in the individual data points. These will then be compared across sub-fields to see how the practice of adjusting for heterogeneity varies dependent on the sub field. These will be presented with simple descriptive statistics but also with a qualitative content analysis of how authors reason about their analysis choices and exclusion criteria with regards to methodological heterogeneity. This content analysis will aim to be descriptive and will not seek to find any emergent or latent themes within the data.
+
+# Questions for meeting Monday October 8th
+- How should we conduct the screening? ASReview? Saturation?
+
+
+# References

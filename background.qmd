@@ -1,0 +1,41 @@
+---
+title: "Background"
+format: pdf
+editor: visual
+---
+
+An often overlooked problem in meta-analytic studies within psychology is the handling of heterogeneity (Linden and Hönekopp, 2021). Heterogeneity, being the observed variation in effect sizes, can be problematic when the pooled effects from the analysed studies contain more variation than expected from random sampling. Additionally, when heterogeneity is assessed it is often only discussed as a concrete mathematical concept. However, this can obfuscate the underlying assumptions we need to make about the studies that we meta-analyze. These assumptions become clear when we start to distinguish between different types of heterogeneity.
+
+A common typology of heterogeneity is that from Cochrane(REF), who distinguishes between clinical, methodological and statistical heterogeneity. Clinical heterogeneity is the variation in effects that is introduced by the participants or the interventions within a study, the methodological heterogeneity is variation introduced by the study design, and the statistical heterogeneity is the statistically quantified variation in effects\\results.
+
+Weiss et al 2014 provides a similar but slightly different view of how to evaluate heterogeneity in the effect of governmental programs. Like Cochrane, they argue that heterogeneity has tree sources: Treatment contrast, within participants moderators, and contextual moderators.
+
+Treatment contrast refer to the strength of the measured effect. Consider that we have a completely valid concept X, but when we study X we can get either large X or small X dependent on the stimuli we use to elicit effects. Say we want to examine pain and we agree that this can be measured by putting your hand in cold water, the degree of coldness can be a source of difference in effects that then contributes to unexpected heterogeneity observed across a set of k studies examining this treatment. This is an interesting source of heterogeneity since the concept might be the same, but the true effect is not.
+
+Within participants moderators refer to variation coming from individual participants. Say that we do our cold water experiment and have a single stimuli of water with a certain coldness, but our sample consists of two unaccounted for subgroups -- one with a high pain tolerance and one with low pain tolerance. This difference within participants affects the strength of the effect, and thus is a systematic source of variation which we cannot attribute to normal sampling error -- thus providing heterogeneity.
+
+Contextual moderating factors are factors external to the participants and separate from the stimuli provided to elicit the effect. They cover contextual aspects of the ''study environment'' that can cause potential differences in effects. For example, say that the coldness of water could be moderated by the size of the cup you place your hand into, and that our experiment uses multiple cups which vary in size. This could artificially introduce variation in the effect due to the context of the measurement and again provide heterogeneity.
+
+Rücker et al 2008 follows roughly the same topology as Cochrane, but refer to methodological heterogeneity more ambiguously as ''Heterogeneity from other sources'',''other'' in this case meaning everything beyond that attributable to the clinical or ''baseline'' heterogeneity provided through the variation between participants, interventions or outcomes across studies.
+
+What all heterogeneity typologies have in common is the statistical heterogeneity. This is the statistical construct that measures variance in true effect sizes estimated by the pooled observed effect sizes. For a number of effect sizes to be pooled, they need to satisfy the following conditions: they need to be comparable, computable, reliable and interpretable (Harrier et al., 2021). Additionally, issues with statistical heterogeneity can easily be approached through redefining the statistical model; this is not the case with other types of heterogeneity.
+
+Beyond the concrete statistical measures such as $\tau^2$ or $I^2$, perspectives on heterogeneity diverges based on the particular field of study you describe it in, even though the underlying concept might be the same. For example, the main difference between the Cochrane perspective and that of Weiss et al., 2014, is that Cochrane places less weight on stimuli strength, which presumably would fall into clinical heterogeneity. Cochrane reviews also places more weight on the experimental design, which can be attributed to them being designed for medical research, not social science. Neither of these typologies capture exactly what we want ''capital H'' heterogeneity to mean in psychology since what we measure is often more abstract than that of medical scientists or policy makers. This means that the true effects in psychology are also more nebulous than those in harder sciences. In the following section I will detail a typology of heterogeneity for the field of psychology influenced by Campbellian experiment design and causal logic.
+
+The first step of understanding general heterogeneity is to understand that statistical heterogeneity is the operationalization of what we for now will call general heterogeneity. That is, it is the definitive measurement of the underlying or latent heterogeneity. As such, we assume that the underlying heterogeneity is the cause behind the effect of statistical heterogeneity. The logic here is that if no variation/heterogeneity in the effect exists, no statistical heterogeneity will be observed. The question we now must answer is - at what point are visable differences between any scientific inquiry large enough that we conclude that the effects we are measuring are different, even though no measurable difference is present. This question applies both to fixed models and random effects models in the sense that a meaningfully large difference can be applied both to point estimates and distributions.
+
+I cannot answer this question presently, but maybe one answer can be provided by reasoning through campbellian validity and make some binary choices whether we can make certain assumptions. This is one checklist from Cook, Campbell and Shadish on when causal generalisation is proper:
+
+1.  Surface similarity. They assess the apparent similarities between study operations and the prototypical characteristics of the target of generalization.
+
+2.  Ruling out irrelevancies. They identify those things that are irrelevant because they do not change a generalization.
+
+3.  Making discrimination. They clarify key discrimination that limit generalization.
+
+4.  Interpolation and Extrapolation. They make interpolations to unsampled values within the range of the samples instances and, much more difficult, they explore extrapolations beyond the sampled range.
+
+5.  causal explanation. They develop and test explanatory theories about the pattern of effects, causes and mediation process that are essential to the transfer of a causal relationship.
+
+In the context of evidence synthesis, surface similarity might be viewed as an assumption that surface similarity of k1 to k2 must be the same as k2 to k3. However, this is not necessarily true. Imagine we have constructs X and Y, their relation constitute the true effect distribution Z, the Z distribution of true effects are estimated with k number of studies. However, all values of Z are not equally distant to each other(not normal), in this case we know the constructs X and Y are valid, but the similarity between k studies will not be homoskedastic. Here we have heterogeneity, but not because the construct is not valid. The question is - if we have heterogeneity, can the construct be valid?
+
+In the end we should be able to answer whether two effects are comparable or not. Let's begin with construct validity. Firstly, are the measurements in the k studies construct valid, do they measure what the say they do?

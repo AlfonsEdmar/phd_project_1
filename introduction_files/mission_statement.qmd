@@ -12,7 +12,7 @@ An often overlooked problem in meta-analytic studies within psychology is the ha
 
 ## Motivation and Intention
 
-It is worth to note that this project is the start of a PhD thesis. The objective of this thesis is to explore Bayesian evidence synthesis. One situation where this technique could be useful is when the heterogeneity between studies is too substantial for a valid comparison between effects is possible. Therefore, a qualitative exploration of this situation is needed in order to establish whether the technique provides value in addition to standard meta-analytic techniques.
+It is worth to note that this project is the start of a PhD thesis. The objective of this thesis is to explore Bayesian evidence synthesis. One situation where this technique could be useful is when the heterogeneity between studies is too substantial for a valid comparison between effects to be possible. Therefore, a qualitative exploration of this situation is needed in order to establish whether the technique provides value in addition to standard meta-analytic techniques.
 
 The reason why this is apt to point out is because this review will largely be a qualitative assessment of the literature on heterogeneity and cover subjective issues related to scientific theory. Being mindful of our prior attitudes in these areas is therefore prudent. One way of specifying the goal of this paper is to analyze under what conditions studies are excluded from meta analyses on grounds of heterogeneity, and when does heterogeneity become an issue regarding construct validity and external validity. These two types of validity are important to consider in evidence synthesis since we rely on the internal validity that any k study included in the analysis evaluates the questions or underlying concept it states it does, and external validity in the sense that any k study can be generalized to other conditions examining the same concept.
 
@@ -20,21 +20,69 @@ The reason why this is apt to point out is because this review will largely be a
 
 The objective of this systematic review is to get a picture of what steps are taken to adjust for observing a high degree of heterogeneity within the field of psychology as a whole, and whether certain fields have more issues than others with observed between-study heterogeneity. Since the underlying tool; pooling effects and analyzing them, are the same across fields, how heterogeneity affects the results should also be the same. In this review i want to...
 
+-   Examine how researchers marry the concepts of methodological heterogeneity and statistical heterogeneity in their reviews.
+
+-   Compile what researchers mean by methodological and statistical heterogeneity across fields in psychology.
+
 -   Compare degree of heterogeneity across various fields
 
 -   Compare tools/statistics for measuring and accounting for heterogeneity
 
 -   Evaluate how well heterogeneity is accounted for/reduced
 
--   Evaluate when researchers deem heterogeneity to be an issue which challenges the validity of their results.
+-   Evaluate when researchers deem methodological and statistical heterogeneity to be an issue which challenges the validity of their results.
 
 -   Define when heterogeneity matters and at level of heterogeneity that requires a different mode of evidence synthesis.
 
--   Discuss the objective of psychological meta-analyses with regards to estimation and or significance testing as well as how that relates to issues with heterogeneity.
+-   Discuss the objective of psychological meta-analyses with regards to estimation and or significance testing as well as how that relates to issues with heterogeneity. What is the rationale behind the study?
 
 -   Discuss how questionable research practices could affect heterogeneity
 
+-   Make the soft assumptions of meta-analyses concrete and provide a logic for when a comparability assumption is violated
+
 ## Methods
+
+### Scoping review or systematic review
+
+A scoping review can be viewed as a precursor to more systematic reviews regarding a more specific question. The purpose of a scoping review is to identify knowledge gaps, scope out the literature, clarify concepts and to investigate research conduct. The main function of a systematic review is to synthesize research to answer a specific research question and provide reliable inferences on the state of the literature. That is, a systematic review is highly rigorous and reproducible with regards to selection criteria and analysis. The following are some broad descriptions of the goal of systematic reviews (Munn et al, 2018):
+
+1.  Uncover the international evidence
+
+2.  Confirm current practice/ address any variation/ identify new practices
+
+3.  Identify and inform areas for future research
+
+4.  Identify and investigate conflicting results
+
+5.  Produce statements to guide decision-making
+
+A corresponding list for motivations for a scoping review are the following:
+
+1.  To identify the types of available evidence in a given field
+
+2.  To clarify the key concepts/definitions in the literate
+
+3.  To identify key characteristics or factors related to a concept
+
+4.  To identify and analyse knowledge gaps
+
+5.  To identify implications for decision making (can we pool results?)
+
+Given that our goal is to clarify the concept of methodological heterogeneity in evidence synthesis and identify the gaps in our knowledge on the subject a scoping review is probably the way to go. What we want to do is to identify key aspects related to issues in methodological heterogeneity. An alternative to a scoping review could be a rapid review, that being a feasibility constrained systematic review, but in reality it is not the feasibility of our investigation that informs our method - it is the underlying research question. Since we are mainly concerned with the qualia of methodological heterogeneity, a quantitative assessment of any literature is missing the question.
+
+Peters et al (2015) describes scoping reviews as a type of reconnaissance with the objective of clarifying working definitions and conceptual boundaries of a general topic or field. This suites our project, since the literature we are reviewing is highly heterogeneous. The only red thread connecting our data is is that they are meta-analyses in psychology. Therefore, the data we are interested in is not amenable to more precise systematic review of evidence for a certain effect or concept.
+
+#### Reading
+
+Challen K, Lee AC, Booth A, Gardois P, Woods HB, Goodacre SW. Where is the evidence for emergency planning: a scoping review. BMC Public Health. 2012;12:542
+
+Tricco AC, Lillie E, Zarin W, et al. A scoping review on the conduct and reporting of scoping reviews. BMC Med Res Methodol. 2016;16:15.
+
+Peters MD, Godfrey CM, Khalil H, McInerney P, Parker D, Soares CB. Guidance for conducting systematic scoping reviews. Int J Evid Based Healthc. 2015;13(3):141--6
+
+### Review protocol
+
+A scoping review investigates Population, Concept, and Context (PCC). For us, the population is the meta-analyses that we are including, the concept is methodological heterogeneity, and the context is recently published meta-analyses. The output of the review will be a sort of evidence map in which we catalog how researchers across varying fields in psychology handle methodological and statistical heterogeneity and what issues they run into when heterogeneity is present.
 
 ### Search strategy
 
@@ -50,11 +98,13 @@ Resulting in 1972 results.
 
 ### Exclusion criteria
 
+Let's state the some of the more obvious exclusion criteria first.
+
 -   Full text not available
 
--   Is not a meta-analysis
+-   Is not a meta-analysis/systematic review
 
--   Does not report heterogeneity measures
+Now let's think about how we should exclude studies more specifically. Since our research question is about when methodological heterogeneity is an issue, we need some sort of selection procedure that finds analyses where methodological heterogeneity is high. That is, regardless of whether the statistical heterogeneity is, uncertainty around whether the studies are comparable is still present. Therefore, we should not exclude articles based on reported statistical heterogeneity. However, we might want to include heterogeneity in our search terms.
 
 ### Sampling procedure
 
@@ -68,25 +118,27 @@ Since the main goal here is to do a qualitative assessment a complete exhaustion
 
 One way of getting a sampling studies could be through a stratified/grouped sample covering different fields of psychology. This way we ensure that a wide range of sub-fields are covered. Additionally and or alternatively, we might follow inclusion based on journals (e.g psych bull, clinical psychology review, neuropsychology review, health psychology review, personality and social psychology bulletin etc). This would apply some rules of sampling from quantitative research such as information saturation and purposeful sampling targeting only information rich cases - though this will come with its own set of biases.
 
+## Code book
+
+-   what is the objective of the review(testing, estimating etc?)
+
+-   demographics
+
+-   heterogeneity measures
+
 ### Pre-registration
 
 I think pre-registration would be a good idea. That way I/we need to hammer out what our research questions are thoroughly before doing the data extraction. It also stakes out possible forking paths contingent on possibly problematic results. I think a pre-registration with a PRISMA statement along with the general university guidelines should be enough. I believe the University Library can help with both literature search and establishing guidelines conducive to a high quality review.
 
 ## Questions
 
--   What, concretely, is the research question. Have i missed it in the mission statement/objective section?
-
--   Should we strive for a very wide scope of studies (fields, models, effect sizes etc)?
-
 -   Should we include some meta-analytic measures in the review (sample size, Tau etc)?
-
--   What literature should we look at for when between-study heterogeneity becomes to large for valid/reliable inferences.
 
 -   Do we have a vision for what the ideal structure of the paper should be? Who is it for beyond ourselves as a launchpad for the BES project?
 
--   Do you think that i have a good understanding of statistical heterogeneity? what is it I am missing?
+-   Looking forward, it seems to me BES could be fairly sensitive to publication bias since it is possible to link together very heterogeneous studies. This could potentially lead to synthesis of basic research that get published out of novelty rather than reliability.
 
--   I am meeting Erika Manten on Friday, do we have any documents/information we should provide her with.
+-   Should we structure our rows in the code book by model? it might be useful for when studies have use many models to account for heterogeneity.
 
 ## Reading/material to cover
 
@@ -109,6 +161,8 @@ Borenstein, Michael, Julian PT Higgins, Larry V Hedges, and Hannah R Rothstein. 
 Bryan, Christopher J.; Tipton, Elizabeth; Yeager, David S. (2021): Behavioural science is unlikely to change the world without a heterogeneity revolution. In Nature human behaviour 5 (8), pp. 980--989. DOI: 10.1038/s41562-021-01143-3.
 
 Crandall, Christian S.; Sherman, Jeffrey W. (2016): On the scientific superiority of conceptual replications for scientific progress. In Journal of Experimental Social Psychology 66, pp. 93--99. DOI: 10.1016/j.jesp.2015.10.002.
+
+Gagnier, J.J., Moher, D., Boon, H. *et al.* Investigating clinical heterogeneity in systematic reviews: a methodologic review of guidance in the literature. *BMC Med Res Methodol* **12**, 111 (2012). https://doi.org/10.1186/1471-2288-12-111
 
 Gelman, Andrew (2018): The Failure of Null Hypothesis Significance Testing When Studying Incremental Changes, and What to Do About It. In Personality & social psychology bulletin 44 (1), pp. 16--23. DOI: 10.1177/0146167217729162.
 
@@ -135,6 +189,8 @@ Mathur, Maya B.; VanderWeele, Tyler J. (2019): Challenges and suggestions for de
 Mathur, Maya B.; VanderWeele, Tyler J. (2019): New metrics for meta-analyses of heterogeneous effects. In Statistics in medicine 38 (8), pp. 1336--1342. DOI: 10.1002/sim.8057.
 
 Moeller, Julia: Generalizability Crisis Meets Heterogeneity Revolution. Determining Under Which Boundary Conditions Findings Replicate and Generalize.
+
+Munn Z, Stern C, Aromataris E, Lockwood C, Jordan Z. What kind of systematic review should I conduct? A proposed typology and guidance for systematic reviewers in the medical and health sciences. BMC Med Res Methodol. 2018;18(1):5.
 
 Olkin, Ingram, Issa J Dahabreh, and Thomas A Trikalinos. 2012. "GOSH--a Graphical Display of Study Heterogeneity." Research Synthesis Methods 3 (3): 214--23.
 
