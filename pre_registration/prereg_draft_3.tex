@@ -1,0 +1,713 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Heterogenity in Psychology: a Mixed Methods Meta-Review using a Content Analysis and a Scoping Review},
+  pdfauthor={B.A Edmar},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Heterogenity in Psychology: a Mixed Methods Meta-Review using a
+Content Analysis and a Scoping Review}
+\author{B.A Edmar}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, enhanced]}{\end{tcolorbox}}\fi
+
+``if you don't have any theory about how you're going to explore the
+(statistical) heterogeneity {[}\ldots{]} then {[}\ldots{]} exploring it
+just means you spent more time doing it and not learning much more'' --
+participant 17 (Lorenc et al., 2016)
+
+\hypertarget{the-question}{%
+\section{1. The Question}\label{the-question}}
+
+The main goal of this paper is to address how heterogeneity impacts the
+validity of evidence synthesis. Specifically, we want to examine the
+problem of comparability across pooled effects and how researchers deal
+with problematic heterogeneity. Another way to phrase this question
+could be: at what point are qualitative differences between scientific
+inquiries into the same underlying psychological construct large enough
+that we conclude that the effects we are measuring are different;
+regardless of whether a measurable difference is present? In essence, we
+want to know what causes the exclusion of a study from a meta-analysis
+due to perceived methodological diversity or heterogeneity. In order to
+answer this question, a semi-mixed methods approach is needed. This is
+because we want to qualitatively examine heterogeneity issues in
+systematic reviews, and the qualitative AND quantitative heterogeneity
+issues in meta-analyses. To do this a qualitative content analysis of
+the systematic review literature, and a scoping review of the
+meta-analysis literature will be conducted.
+
+\hypertarget{introduction}{%
+\section{2. Introduction}\label{introduction}}
+
+Systematic reviews and meta-analyses are usually described as the
+gold-standard in terms of providing evidence for scientific theories.
+However, for these types of analyses to be conducted a suitably body of
+literature is needed. What makes a literature suitable for review is
+therefore an important question to ask in order to gauge whether a
+synthesis of evidence is possible. The answer to this question depends
+on the field in which the review is conducted, and the type of research
+question asked.
+
+One of the main reasons to not conduct a meta-analysis even though a
+suitably large body of literature on a topic exist, is that the
+individual papers within that literature are so different from one
+another that the comparability of the individual studies comes into
+question. This variability across studies is commonly referred to as
+between-study heterogeneity. In this context heterogeneity refers to the
+variation in observed effects. While this definition is simple enough,
+it does not capture the nuances of what variability in observed effects
+\emph{mean}. In order to set up our working definition of heterogeneity
+we need to make some clarifications on what we mean by effects and what
+we mean by variability.
+
+\hypertarget{effects-and-variance}{%
+\subsection{2.1 Effects and Variance}\label{effects-and-variance}}
+
+With effects we mean the counterfactual difference between states
+dependent on whether something is present or not, and if present, to
+what degree it is so. If we assume that an effect has a single true
+value that we can estimate and that the variation in that effect tends
+towards zero as our sample size increases we assume that the effect is
+fixed. If we assume that the effect varies dependent on some underlying
+parameters, we assume that the effect is random.
+
+With variability, we mean the mathematical concept of variance. Variance
+describes the average squared distance from a mean. It provides a
+measure for how varied a set of data points are with large values
+indicating high variation and low values indicating low variation.
+Another way to phrase this is that variance describes our degree of
+uncertainty about a mean. That is, to what degree we can expect to be
+wrong about estimating a mean value.
+
+\hypertarget{heterogeneity-and-uncertainty}{%
+\subsection{2.2 Heterogeneity and
+Uncertainty}\label{heterogeneity-and-uncertainty}}
+
+One of the main distinguishing features between heterogeneity and
+variance is that heterogeneity has an accompanying distribution which
+indicates what sort of dispersion we can expect from studies measuring
+the same effect. Both variance and heterogeneity are measures of
+uncertainty, but with heterogeneity we have a framework to discern
+whether the observed variation is a product of naturally occurring
+sampling error or indicative of having captured multiple true effects in
+the pool of studies. This is the foundation of why some refer to
+heterogeneity as unexpected variation, or uncertainty about a mean value
+to the extent that it does not fit the expected distribution of a true
+effect(REF). In this paper we will not distinguish between inherent
+sampling error of true effects and the measurement of variation in
+effects that might consist of having multiple true effect sizes in a
+sample. The reason for this is because the notion of a \emph{true} fixed
+psychological effect in the context of a meta-analysis is rather
+abstract. As with all constructs in social science, effects observed in
+psychology are dependent on multiple unobserved variables that could
+explain much of the variation in those effects. Therefore we will
+disregard definitions of heterogeneity that claim to be indications of
+`'unexpected variation'' or variation due to having captured multiple
+true effects - since all observed effects of interest in psychology are
+the product of multiple true effects. This is especially true when we
+define our effects as latent, which is the case when we use methods like
+structural equation modelling (SEM) or meta-analysis.
+
+Because we assume that latent psychological effects are conditional on
+multiple unobserved variables, we are making a claim that are
+uncertainty about the effect can be reduced if we have more information.
+That is, our uncertainty is \emph{epistemic}, or, knowable. In the
+context of a meta-analysis which aims to estimate a latent effect, the
+inclusion of moderating variables are endeavours to reduce our
+uncertainty about the effect. In a situation where no more information
+exists to further explain potential variation in an effect, our
+uncertainty about it is \emph{aleatory}, meaning that it is random in
+the sense that it follows a probability distribution in which no
+parameter can predict its outcome. To our knowledge, this has never
+happened in the field of psychology, and the often low explained
+variability in psychological constructs is a testament to this(REF).
+
+Since the concept of heterogeneity is closely tied with that of
+epistemic uncertainty, how heterogeneity is categorised is often
+dependent on where the source of the uncertainty is attributed. This
+varies across fields of study, in medicine the Cochrane typology of
+clinical and methodological heterogeneity is often distinguished, and in
+political science lines are drawn between treatment contrasts,
+participant moderators, and contextual moderators. The only true
+agreement on what heterogeneity means comes in it's statistical form,
+namely \(\tau^2\), meaning effect variance. Henceforth when we refer to
+heterogeneity we will be talking explicitly about \(\tau^2\) under the
+assumption that our uncertainty about the effect (\(\mu\)) is mostly
+epistemic. That is, the majority of the variation in an effect is
+attributable to it consisting of multiple true effects, which in theory
+are knowable.
+
+While this notion of what we can call `'epistemic heterogeneity'' may
+seem slightly arcane to most applied researchers, it is a useful terms
+since it has statistical underpinnings but is not necessarily an
+emergent or caused effect like observed statistical heterogeneity. In
+other words, we can see epistemic heterogeneity as the cause that
+results in the effect which is observed statistical heterogeneity. This
+is a theoretical claim that results in the assumption that statistical
+heterogeneity cannot exist without epistemic heterogeneity, but the
+absence of statistical heterogeneity is not indicative of an absence of
+epistemic heterogeneity. This in turn illustrates the importance in
+evaluating the potential sources of epistemic heterogeneity carefully
+before conducting any type of evidence synthesis.
+
+This conundrum lies at the heart of the goal with this paper since we
+want to assess where the comparability between studies breaks down and
+forces the authors to conduct a purely qualitative evidence synthesis
+that does not mathematically combine measures across studies.
+
+\hypertarget{methods}{%
+\section{3. Methods}\label{methods}}
+
+This paper will consist of two dependent studies, one scoping review and
+one qualitative content analysis. A mixing procedure where the result
+from both studies are thematically synthesised to provide a nuanced
+answer to our research question will also be conducted. It cannot be
+stressed enough that while there are surface level similarities between
+these two analyses, they are categorically different and their results
+cannot be directly compared. It is through the mixing procedure where an
+answer to the over-arching research question can be addressed. Simply
+put, we want to know when epistemic heterogeneity is an issue, but to
+properly answer this question we need to analyse when pooling data was
+judged to be mostly a statistical issue and when pooling data was judged
+to not be possible on qualitative grounds. We address the former with a
+scoping review and the latter with a qualitative content analysis.
+Figure 1 depicts a flow chart of how our overarching research question
+gets partitioned into more targeted research questions which require
+different modes of inquiry, and then how the results from both analyses
+are integrated to answer the initial question.
+
+\hypertarget{figure-1}{%
+\paragraph{Figure 1}\label{figure-1}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=4.02083in,height=\textheight]{design_flow_chart.png}
+
+}
+
+\end{figure}
+
+\hypertarget{the-scoping-review}{%
+\subsection{3.1 The Scoping Review}\label{the-scoping-review}}
+
+A scoping review is a type of evidence synthesis akin to a systematic
+review or a traditional literature review. The main difference between a
+systematic review and a scoping review is that the scoping review is a
+more iterative process designed to identify knowledge gaps, scope out a
+body of work, clarify concepts or investigate research conduct. As such,
+the synthesis of the scoping review is not designed to provide a summary
+of research findings from individual studies; but generate broader
+mapping of evidence, not unlike a traditional literature review.
+
+Given that our goal is to clarify the concept of heterogeneity, and
+assess how the execution of research is impacted by the presence of
+heterogeneity, a scoping review is preferable to a systematic
+review(Munn et al., 2018). An alternative to a scoping review could be a
+rapid review; that being a feasibility constrained systematic review.
+However, it is not the feasibility of our investigation that informs our
+method - it is the underlying research question. Since we are mainly
+concerned with the qualia of heterogeneity, a quantitative assessment of
+the literature does not target the question; even though the literature
+itself is quantitative in nature.
+
+This review will follow the guidelines provided by JBI to the greatest
+extent possible for the research question at hand(\emph{{JBI} {Manual}
+for {Evidence} {Synthesis}}, 2020). In essence, this means that an a
+priori protocol of the review including the exclusion criteria, search
+strategy, methodology and reporting will be conducted. One deviation
+from the recommendations will be present in the searching procedure due
+to the nature of the literature we are interested in. Since the JBI
+guidelines are compatible with the Preferred Reporting Items for
+Systematic Reviews and Meta-Analyses extension for Scoping Reviews
+(PRISMA-ScR) (Tricco et al., 2018), that reporting scheme will be
+followed in the manuscript.
+
+\hypertarget{eligibility-criteria}{%
+\subsubsection{3.1.1 Eligibility Criteria}\label{eligibility-criteria}}
+
+To be included in the systematic scoping review, any document needs to
+be a meta-analysis within psychology science published in 2021 or 2022
+to capture recently published studies. Additionally, documents must have
+a theoretical research question that requires the synthesis of evidence
+across multiple independent studies to be included. This means that
+studies posing meta-research will be excluded. An example of a
+meta-research question would be an evaluation of the prevalence of
+open-science practices or replications within a given field. The data
+within the documents must also have been generated through a systematic
+search of literature, this excludes sequential studies that aggregate
+their findings using an `internal meta-analysis'.
+
+In sum, for a study to be included in the scoping review it needs to: 1)
+be a meta-analysis conducted using standard literature search
+strategies; 2) cover a psychological concept; and 3) be published in
+2021 or 2022.
+
+\hypertarget{search-strategy}{%
+\subsubsection{3.1.2 Search Strategy}\label{search-strategy}}
+
+The JBI(\emph{{JBI} {Manual} for {Evidence} {Synthesis}}, 2020)
+guidelines state that at least two databases should be subject to an
+initial search, thereafter a second search using all identified keywords
+should be conducted, and then the reference list of all identified
+sources should be consulted for additional documents. While these
+guidelines are sound, following this strategy is not feasible in our
+case due to the breadth of the literature we are interested in.
+Therefore we deviate from the JBI manual in this area.
+
+Since the field we are interested in is psychology, searching databases
+outside psychology will have to include field limitations that would not
+be needed in psychology specific data bases such as PsychInfo.
+Therefore, we will only search PsychInfo, since that database provides
+us with a natural exclusion of documents outside the field of
+psychology. As an extension of this strategy we use PsychInfo
+classification categories to get a representative sample of papers
+across the many sub-fields within psychology. To this end we limit our
+search to papers within the following categories: Physiological
+Psychology \& Neuroscience (2500), Developmental Psychology (2800),
+Social Psychology (3000), Personality Psychology (3100), Organizational
+Psychology (3600), Forensic psychology \& Legal Issues (4200). These
+categories are selected to ensure that a representative sample of
+different areas of psychology are searched for while limiting the number
+of search results.
+
+\hypertarget{table-1}{%
+\paragraph{Table 1}\label{table-1}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5833}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2083}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Search Terms
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Results
+\end{minipage} \\
+\midrule()
+\endhead
+1 & meta-analy* or meta analy*\{Including Related Terms\} & 30 330 \\
+2 & limit 1 to (2500 physiological psychology \& neuroscience or 2800
+developmental psychology or 3000 social psychology or 3100 personality
+psychology or 3600 organizational psychology \& human resources or 4200
+forensic psychology \& legal issues) & 1188 \\
+3 & limit 2 to yr=``2021 - 2022'' & 201 \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{document-screening-and-selection}{%
+\subsubsection{3.1.3 Document Screening and
+Selection}\label{document-screening-and-selection}}
+
+The identified documents was screened using the software tool rayyan.ai,
+the main purpose of this was to utilise the rayyan screening environment
+and thus we did not use any automated tools. The screening was conducted
+in a two stage fashion where the abstracts from the initial search was
+screened for eligibility. After locating eligible studies, a stratified
+random selection of 5 studies from each of the six APA classification
+categories was conducted to get a total sample of 30. However, only 3 of
+the 5 studies selected from the Personality Psychology category could be
+located, which gave us a final sample of 28 articles. An over view of
+the entire search and selection procedure can be seen in figure 2.
+
+\hypertarget{figure-2}{%
+\paragraph{Figure 2}\label{figure-2}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=4.02083in,height=\textheight]{prisma_flow.png}
+
+}
+
+\end{figure}
+
+\hypertarget{data-extraction}{%
+\subsubsection{3.1.4 Data Extraction}\label{data-extraction}}
+
+The data from the identified studies will be extracted into an excel
+code book based on an a priori constructed extraction instrument as is
+proper for scoping reviews (Munn et al., 2018). The extraction
+instrument is designed to answer a series of research questions derived
+from potential sources of heterogeneity based on the four Cambellian
+validities. The code book covers three main themes: general study
+characteristics, the presence of epistemic heterogeneity in the review,
+and how the authors dealt with the observed statistical heterogeneity.
+Across these three themes we will include notation of the aims of the
+study, the sub-field of the study, the population examined, the
+methodology used, exclusion criteria, findings/conclusion of the study,
+etc. The extraction instrument can be seen in its entirety in appendix
+A.
+
+\hypertarget{data-analysis}{%
+\subsubsection{3.1.5 Data Analysis}\label{data-analysis}}
+
+The analysis of the data will consist of summarizing the motivation for
+the various choices made in the individual data points. These results
+will be presented with simple descriptive statistics but also with a
+qualitative analysis of how authors reason about their analysis choices
+and exclusion criteria with regards to heterogeneity. These results will
+then be compared across sub-fields to see if the practice of adjusting
+for heterogeneity varies dependent on the field. The qualitative
+analysis will aim to be descriptive and will not seek to find any
+emergent or latent themes within the data. The result will be an
+evidence map of how epistemic heterogeneity is accounted for in the
+exclusion criteria and the theory under investigation as well as how the
+statistical heterogeneity is handled by the authors.
+
+\hypertarget{the-qualitative-content-analysis}{%
+\subsection{3.2 The Qualitative Content
+Analysis}\label{the-qualitative-content-analysis}}
+
+While we have a similar goal with our content analysis as with our
+scoping review, these methodologies are distinctly different from one
+another. In a content analysis, no systematic protocol is needed, and no
+synthesis of evidence is conducted. Instead, a fully qualitative
+approach is taken where the results of the analysis cannot be fully
+divorced from it's author(s), meaning that its reproducibility is weak.
+This does not mean that transparency falls by the wayside or that
+measures to ensure inter-rater-agreement is reduced, but rather that the
+point of the analysis is not to give a systematically reproducible
+analysis of a literature.
+
+A content analysis, as described by Elo et al. (2014), can be defined as
+``A flexible method for making valid inferences from data in order to
+provide new insight, describe a phenomenon through concepts or
+categories, and develop an understanding of the meaning of
+communications with a concern for intentions, consequences, and
+context.'' This makes it an apt method for our purposes since we aim to
+find cases of reported problematic heterogeneity in systematic reviews.
+We mean to locate instances where the apparent goal of the review is to
+pool data for a meta-analysis but the perceived epistemic heterogeneity
+was too large for a valid synthesis. That is, we are specifically
+looking of reviews that mention aspirations of meta-analytic pooling,
+but due to epistemic heterogeneity, that could not be done.
+
+In order to make valid inferences about this phenomenon, we need to take
+context, intentions and communication from the authors conducting the
+study into account, thereby making a qualitative content analysis an
+appropriate method.
+
+\hypertarget{search-for-secondary-sources}{%
+\subsubsection{3.2.1 Search for Secondary
+Sources}\label{search-for-secondary-sources}}
+
+To locate studies of this kind, a search for literature similar to that
+of the scoping review will be conducted with the addition of searching
+for heterogeneity in the abstracts, titles or keywords. Since the only
+type of heterogeneity present within systematic reviews is substantive,
+this additional keyword will help locate instances where the
+heterogeneity of the study population is challengingly high. No
+eligibility criteria for inclusion exists, this search procedure is
+simply a means of generating data from secondary sources and should not
+be confused with a systematic literature search. Thus, the search period
+was loosened to include studies published after 2017 in order to capture
+current research without being constrained to one particular year as was
+done in the scoping review. On October 18th, the following search was
+conducted using the terms and limitations provided in table 2.
+
+\hypertarget{table-2}{%
+\paragraph{Table 2}\label{table-2}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5833}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2083}}@{}}
+\toprule()
+\endhead
+& \textbf{Search terms} & \textbf{Results} \\
+1 & systematic review AND heterogeneity \{Including Related Terms\} & 33
+783 \\
+2 & limit 1 to (2500 physiological psychology \& neuroscience or 2800
+developmental psychology or 3000 social psychology or 3100 personality
+psychology or 3600 organizational psychology \& human resources or 4200
+forensic psychology \& legal issues) & 2373 \\
+3 & limit 2 to yr=``2018 -Current'' & 955 \\
+\bottomrule()
+\end{longtable}
+
+A screening of the 955 documents on November first 2023 found 14
+documents to be suitable for analysis since they indicated aspiration of
+mathematical synthesis but, due to epistemic heterogeneity was not
+possible.
+
+\hypertarget{methodology}{%
+\subsubsection{3.2.2 Methodology}\label{methodology}}
+
+The qualitative content analysis will be conducted using an inductive
+analysis with a critical realist framework. However, since the topic
+under investigation has a long history of study, we will be using the
+theoretical scaffolding of heterogeneity typology and the considerable
+work on validity stemming from the philosophy of science (Shadish et
+al., 2002), thus the study will not be purely inductive. That is, we
+will be using a deductive-inductive approach(Hong et al., 2017).
+
+The analysis will follow the standard procedure of identifying studies,
+immersing oneself within the data, and developing the codebook as an
+information saturated picture of the concept under study is painted (Cho
+\& Lee, 2014). However, three initial categories consisting of external,
+internal, and construct validity will be taken from the extraction
+instrument of the scoping review in order to structure the codes. This
+will in turn allow us to create a categorisation matrix where we can
+bolster interrater agreement and provide a semblance of systematic
+objectivity in the coding of the articles. These categories also serve
+as an a priori Epoché (Bracketing) of what we expect to find in the
+systematic reviews. Through this we aim to ground the analysis in theory
+as well as provide some transparency regarding the authors motivation
+and expectations from the analysis. That being that the failure to
+mathematically synthesise evidence is a result of lacking internal,
+external or construct validity in the pool of studies included in the
+systematic review.
+
+After coding the articles and assigning the codes to our pre-defined
+categories, the hermeneutic-circle will be employed to redefine the
+categories and create new ones where needed. This will be done to
+extract as much information as possible from the systematic reviews and
+provide more nuance to the issue of heterogeneity in those types of
+syntheses. This specific procedure is selected to suit our research
+question and the overall purpose of this paper. However, It should be
+noted that no absolute guidelines for how to conduct a qualitative
+content analysis exists, making it a flexible but challenging research
+method.
+
+\hypertarget{mixing}{%
+\subsection{3.3 Mixing}\label{mixing}}
+
+Following the guidelines provided by JBI
+{[}@noauthor\_chapter\_2020-1{]}, the mixing procedure will follow a
+convergent design where each study informs the other to answer our
+singular research question of how epistemic heterogeneity hinders
+evidence synthesis. We will utilise a `qualitising' transformation where
+the evidence map from the scoping review will be integrated into the
+categories identified in the qualitative analysis
+{[}@thomas\_methods\_2008{]}, {[}@hong\_convergent\_2017{]}. This will
+provide us with a thematic synthesis that can highlight the issues posed
+by the presence of epistemic heterogeneity in the assessment of
+evidence, both from a qualitative and quantitative perspective.
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-cho_reducing_2014}{}}%
+Cho, J., \& Lee, E.-H. (2014). Reducing {Confusion} about {Grounded}
+{Theory} and {Qualitative} {Content} {Analysis}: {Similarities} and
+{Differences}. \emph{The Qualitative Report}.
+\url{https://doi.org/10.46743/2160-3715/2014.1028}
+
+\leavevmode\vadjust pre{\hypertarget{ref-elo_qualitative_2014}{}}%
+Elo, S., Kääriäinen, M., Kanste, O., Pölkki, T., Utriainen, K., \&
+Kyngäs, H. (2014). Qualitative {Content} {Analysis}: {A} {Focus} on
+{Trustworthiness}. \emph{SAGE Open}, \emph{4}(1), 215824401452263.
+\url{https://doi.org/10.1177/2158244014522633}
+
+\leavevmode\vadjust pre{\hypertarget{ref-hong_convergent_2017}{}}%
+Hong, Q. N., Pluye, P., Bujold, M., \& Wassef, M. (2017). Convergent and
+sequential synthesis designs: Implications for conducting and reporting
+systematic reviews of qualitative and quantitative evidence.
+\emph{Systematic Reviews}, \emph{6}(1), 61.
+\url{https://doi.org/10.1186/s13643-017-0454-2}
+
+\leavevmode\vadjust pre{\hypertarget{ref-noauthor_jbi_2020}{}}%
+\emph{{JBI} {Manual} for {Evidence} {Synthesis}}. (2020). JBI.
+\url{https://doi.org/10.46658/JBIMES-20-01}
+
+\leavevmode\vadjust pre{\hypertarget{ref-lorenc_meta-analysis_2016}{}}%
+Lorenc, T., Felix, L., Petticrew, M., Melendez-Torres, G. J., Thomas,
+J., Thomas, S., O'Mara-Eves, A., \& Richardson, M. (2016).
+Meta-analysis, complexity, and heterogeneity: A qualitative interview
+study of researchers' methodological values and practices.
+\emph{Systematic Reviews}, \emph{5}(1), 192.
+\url{https://doi.org/10.1186/s13643-016-0366-6}
+
+\leavevmode\vadjust pre{\hypertarget{ref-munn_systematic_2018}{}}%
+Munn, Z., Peters, M. D. J., Stern, C., Tufanaru, C., McArthur, A., \&
+Aromataris, E. (2018). Systematic review or scoping review? {Guidance}
+for authors when choosing between a systematic or scoping review
+approach. \emph{BMC Medical Research Methodology}, \emph{18}(1), 143.
+\url{https://doi.org/10.1186/s12874-018-0611-x}
+
+\leavevmode\vadjust pre{\hypertarget{ref-shadish_experimental_2002}{}}%
+Shadish, W. R., Cook, T. D., \& Campbell, D. T. (2002).
+\emph{Experimental and quasi-experimental designs for generalized causal
+inference.} Houghton, Mifflin; Company.
+
+\leavevmode\vadjust pre{\hypertarget{ref-tricco_prisma_2018}{}}%
+Tricco, A. C., Lillie, E., Zarin, W., O'Brien, K. K., Colquhoun, H.,
+Levac, D., Moher, D., Peters, M. D. J., Horsley, T., Weeks, L., Hempel,
+S., Akl, E. A., Chang, C., McGowan, J., Stewart, L., Hartling, L.,
+Aldcroft, A., Wilson, M. G., Garritty, C., \ldots{} Straus, S. E.
+(2018). {PRISMA} {Extension} for {Scoping} {Reviews} ({PRISMA}-{ScR}):
+{Checklist} and {Explanation}. \emph{Annals of Internal Medicine},
+\emph{169}(7), 467--473. \url{https://doi.org/10.7326/M18-0850}
+
+\end{CSLReferences}
+
+
+
+\end{document}

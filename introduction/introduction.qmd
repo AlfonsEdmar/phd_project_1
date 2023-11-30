@@ -1,0 +1,32 @@
+---
+title: "Introduction"
+author: "B.A EDMAR"
+format: html
+editor: source
+---
+
+# The Question
+
+With this paper we aim to answer how heterogeneity impacts our assesmet of evidence in systematic reviews and meta-analyses. In essence, this means that we want to understand how issues in comparability across studies are expressed through external, internal and construct validity within studies. More specifically, we want to examine the problem of comparability across pooled effects and how researchers deal with problematic heterogeneity. Another way to phrase this question could be: at what point are qualitative differences between scientific inquiries into the same underlying psychological construct large enough that we conclude that the latent effects we are measuring are different; regardless of whether statistical evidence of that is present? 
+
+To answer this question we will conduct two dependent studies, a qualitaitve content analysis and a scoping review. These will follow a convergent mixed methods design where both will be condcted in parallel and integrated using a thematic synthesis to provide nuanced results.
+
+# Background 
+
+Systematic reviews and meta-analysis are usually refered to as the gold standard of evidence, meaning that the synthesis of evidence from multiple sources are considered the strongest scientific case one can make for a certain theory or replationship between variables. The streanght of these methods have their root in their use of multiple independent sources that together provides a nuanced picture where all available evidence can be taking into account when reaching a conclution. However, taking all available evidence into account is not always easy or free from controversy. How exactly can we determine when different sources provide evidence for the same construct or theory? and when is a body of litteratutre suitable for synthesis. 
+
+This question is explicitly our implicitly answered in the beginning stages of a review process where the reseachers define the eligability criteria needed for studies to be included in the review. However, in some cases, the body of litterature that is of interest is not suitable for meta-analytic pooling. This occurs when the methods used across studies are so varied that comparing them is not appropriate or possible. This is commonly refered to as the ''Apples and Oranges'' problem(REF Harrer)but is more pricesley described as an issue of between-study heterogeneity. However, it should be noted that there are many nuances to what we describe as study heterogeneity, comparability or diversity. In the following sections we will describe key concepts in evidence synthesis and detail key differences among them that sets the foundation of our study.
+
+## Between study-heterogeneity and Methodological diversity 
+
+The definition of heterogeneity in the context of meta-analysis is both very precise and very abstract. We can easily distinguish between what we might refer to as heterogeneity as a statistical outcome and the underlying cause of that outcome. Statistical heterogeneity is simply the variation in the observed effects, but the cause of that outcome/variation, is also called heterogeneity. Different texts use different categories for the the underlying cause of statistical heterogeneity, but for our purposes it is best to view it as cause and effect, where the observed statistical heterogeneity is caused by the underlying heterogeneity in the effect. This underlying variation can be further divided in to aleatory uncertainty which is inherent to the underlying effect, and predictable epistemic uncertainty which in theory can be adjusted for to get a more precise effect estimate. Usually, it is uncertainty of the epistemic kind we are interested in accounting for when we conduct meta-regressions and subgroup analyses.    
+
+When studies have methodological differences, that is often assumed to introduce between-study heterogeneity. Meaning that because a different method is used, a different effect is measured. We assume that different effects are being measured when we an unexpected level of variation across effects, that is, when the statistical heterogeneity(variance) deviates from its expected $\chi^2$ distribution we assume that we are measuring multiple effects. 
+
+
+
+
+
+
+
+

@@ -84,7 +84,7 @@ The search was conducted through the data base Ovid in three steps detailed in t
 #### Table 1
 
 |     | Search Terms                                                                                                                                                                                                                                          |
-|------|------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | 1   | (meta-analy\* or meta analy\*).mp. \[mp=title, abstract, heading word, table of contents, key concepts, original title, tests & measures, mesh word\]                                                                                                 |
 | 2   | limit 1 to (2800 developmental psychology or 3000 social psychology or 3100 personality psychology or 3600 organizational psychology & human resources or 4100 cognitive psychology & intelligent systems or 4200 forensic psychology & legal issues) |
 | 3   | limit 2 to yr="2022 -Current"                                                                                                                                                                                                                         |
@@ -116,7 +116,7 @@ To locate studies of this kind, a search for literature similar to that of the s
 #### Table 2
 
 |     | Search Terms                                                                                                                                                                                                                                          |
-|------|------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | 1   | systematic review AND heterogeneity {Including Related Terms}                                                                                                                                                                                         |
 | 2   | limit 1 to (2800 developmental psychology or 3000 social psychology or 3100 personality psychology or 3600 organizational psychology & human resources or 4100 cognitive psychology & intelligent systems or 4200 forensic psychology & legal issues) |
 | 3   | limit 2 to yr="2018 -Current"                                                                                                                                                                                                                         |
@@ -133,6 +133,6 @@ The analysis will follow the standard procedure of identifying studies, immersin
 
 ## 3.3 Mixing
 
-Following the guidelines provided by JBI \[@chapter2020\], the mixing procedure will follow a convergent design where each study informs the other to answer our singular research question of how substantive heterogeneity is present in the literature. We will utilise 'qualitising' transformation where the data from both the scoping review and the qualitative content analysis will be integrated using a qualitative synthesis. Meaning that the scoping review of the meta-analyses will be translated to fit the codebook of the qualitative content analysis of the systematic reviews. Ideally, the results will then be integrated using a thematic synthesis through which our original research question can be answered \[@thomas2008\].
+Following the guidelines provided by JBI [@chapter2020], the mixing procedure will follow a convergent design where each study informs the other to answer our singular research question of how substantive heterogeneity is present in the literature. We will utilise 'qualitising' transformation where the data from both the scoping review and the qualitative content analysis will be integrated using a qualitative synthesis. Meaning that the scoping review of the meta-analyses will be translated to fit the codebook of the qualitative content analysis of the systematic reviews. Ideally, the results will then be integrated using a thematic synthesis through which our original research question can be answered [@thomas2008].
 
 # References
