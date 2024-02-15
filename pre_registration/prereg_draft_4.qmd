@@ -39,7 +39,7 @@ This paper will consist of two dependent studies, one scoping review and one qua
 
 A scoping review is a type of evidence synthesis akin to a systematic review or a traditional literature review. The main difference between a systematic review and a scoping review is that the scoping review is a more iterative process designed to identify knowledge gaps, scope out a body of work, clarify concepts or investigate research conduct. As such, the synthesis of the scoping review is not designed to provide a summary of research findings from individual studies; but generate broader mapping of evidence, not unlike a traditional literature review.
 
-Given that our goal is to clarify the concept of heterogeneity, and assess how the execution of research is impacted by the presence of heterogeneity, a scoping review is preferable to a systematic review [@munn_systematic_2018]. An alternative to a scoping review could be a rapid review; that being a feasibility constrained systematic review. However, it is not the feasibility of our investigation that informs our method - it is the underlying research question. Since we are mainly concerned with the qualia of heterogeneity, a quantitative assessment of the literature does not target the question; even though the literature itself is quantitative in nature.
+Given that our goal is to clarify the concept of heterogeneity, and assess how the execution of research is impacted by the presence of heterogeneity, a scoping review is preferable to a systematic review [@munn_systematic_2018]. An alternative to a scoping review could be a rapid review; that being a feasibility constrained systematic review. However, it is not the feasibility of our investigation that informs our method - it is the underlying research question. Since we are mainly concerned with the qualia of heterogeneity, a quantitative assessment of the literature do not target that question; even though the literature itself is quantitative in nature.
 
 This review will follow the guidelines provided by JBI to the greatest extent possible for the research question at hand [@noauthor_jbi_2020]. In essence, this means that an a priori protocol of the review including the exclusion criteria, search strategy, methodology and reporting will be conducted. One deviation from the recommendations will be present in the searching procedure due to the nature of the literature we are interested in. Since the JBI guidelines are compatible with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) [@tricco_prisma_2018], that reporting scheme will be followed in the manuscript.
 
@@ -58,14 +58,14 @@ Since the field we are interested in is psychology, searching databases outside 
 #### Table 1
 
 |     | Search Terms                                                                                                                                                                                                                                       | Results |
-|-----------------|--------------------------------------|-----------------|
+|------------|------------------------------------------------|------------|
 | 1   | meta-analy\* or meta analy\*{Including Related Terms}                                                                                                                                                                                              | 30 330  |
 | 2   | limit 1 to (2500 physiological psychology & neuroscience or 2800 developmental psychology or 3000 social psychology or 3100 personality psychology or 3600 organizational psychology & human resources or 4200 forensic psychology & legal issues) | 1188    |
 | 3   | limit 2 to yr="2021 - 2022"                                                                                                                                                                                                                        | 201     |
 
 ### 3.1.3 Document Screening and Selection
 
-The identified documents was screened using the software tool rayyan.ai, the main purpose of this was to utilise the rayyan screening environment and thus we did not use any automated tools. The screening was conducted in a two stage fashion where the abstracts from the initial search was screened for eligibility. After locating eligible studies, a stratified random selection of 5 studies from each of the six APA classification categories was conducted to get a total sample of 30. However, only 3 of the 5 studies selected from the Personality Psychology category could be located, which gave us a final sample of 28 articles. An over view of the entire search and selection procedure can be seen in the PRISMA floc chart in figure 2.
+The identified documents was screened using the software tool rayyan.ai, the main purpose of this was to utilise the rayyan screening environment and thus we did not use any automated tools. The screening was conducted in a two stage fashion where the abstracts from the initial search was screened for eligibility. After locating eligible studies, a stratified random selection of 5 studies from each of the six APA classification categories was conducted to get a total sample of 30. However, only 3 of the 5 studies selected from the Personality Psychology category could be located, which gave us a final sample of 28 articles. An over view of the entire search and selection procedure can be seen in the PRISMA flow chart in figure 2.
 
 \newpage
 
@@ -96,7 +96,7 @@ To locate studies of this kind, a search for literature similar to that of the s
 #### Table 2
 
 |     |                                                                                                                                                                                                                                                    |             |
-|-----------------|--------------------------------------|-----------------|
+|-------------|-----------------------------------------------|-------------|
 |     | **Search terms**                                                                                                                                                                                                                                   | **Results** |
 | 1   | systematic review AND heterogeneity {Including Related Terms}                                                                                                                                                                                      | 33 783      |
 | 2   | limit 1 to (2500 physiological psychology & neuroscience or 2800 developmental psychology or 3000 social psychology or 3100 personality psychology or 3600 organizational psychology & human resources or 4200 forensic psychology & legal issues) | 2373        |

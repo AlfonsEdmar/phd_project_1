@@ -1,0 +1,88 @@
+---
+title: "draft reg"
+format: html
+editor: source
+---
+## Research Aims
+Please specify the overall purposes, objectives or aims of the research.
+
+This paper will consist of two dependent studies, one scoping review and one qualitative content analysis. A mixing procedure where the result from both studies are thematically synthesised to enrich the answer to our research question will also be conducted. Though there are surface level similarities between these two analyses, they are categorically different and their results cannot be directly compared. It is through the mixing procedure where an answer to the over-arching research question can be addressed. Simply put, we want to know when heterogeneity is an issue, but to properly answer this question we need to analyse when pooling data was judged to be mostly a statistical issue and when pooling data was judged to not be possible on qualitative grounds. We address the former with a scoping review and the latter with a qualitative content analysis. Figure 1 depicts a flow chart of how our overarching general research questions gets partitioned into more targeted research questions which require different modes of inquiry, and then how the results from both analyses are integrated to answer the initial question.
+
+## Research question(s)*
+Please specify your research question or questions as they are guiding your research now. If relevant, you may also specify here any hypotheses to be assessed. The research questions may break down your aim into smaller, distinct inquiries.
+
+If relevant, you may distinguish between primary and secondary research questions or hypotheses.
+
+The research question regards the situation when research synthesis through meta-analytic pooling was judged to be inappropriate due to percieved qualitative differences across studies that make them un-comparable. The primary hypotheses is that codes gained from how researchers evaluate this can be categorised along three of the four Campbellian validities (external, internal, and construct validity) but that further refeinment of code categories are needed to gain insight into when studies are judged to be incomparable. 
+
+ 
+## Anticipated Duration*
+The project started in the middel of september parallell with the start of B.A.E's PhD candidacy. Thus the start of the project would be around 15th of September 2023. A manuscript of the finishied paper is estimated in may 2023 but a precice estimate of the time required to conduct the study is unclear since data extraction has yet to begun.  
+
+## Study design*
+Please provide a brief, overarching characterisation of the study design.
+
+Your response might consist of a succinct label (e.g., “case study” or “ethnography”) and/or a brief elaboration of that label’s meaning.
+
+A study may involve a combination of different designs, including a mix of quantitative and qualitative methods
+
+
+The qualitative content analysis will be conducted using an inductive analysis with a critical realist framework. However, since the topic under investigation has a long history of study, we will be using the theoretical scaffolding of heterogeneity typology and the considerable work on validity stemming from the philosophy of science, thus the study will not be purely inductive. That is, we will be using a deductive-inductive approach.
+
+The analysis will follow the standard procedure of identifying studies, immersing oneself within the data, and developing the codebook as an information saturated picture of the concept under study is painted. However, three initial categories consisting of external, internal, and construct validity will be taken from the extraction instrument of the scoping review in order to structure the codes. This will in turn allow us to create a categorisation matrix where we can bolster inter-rater agreement and provide a semblance of systematic objectivity in the coding of the articles. These categories also serve as an a priori Epoché (Bracketing) of what code categories we expect to find in the systematic reviews. Through this we aim to ground the analysis in theory as well as provide some transparency regarding the authors motivation and expectations from the analysis.
+
+After coding the articles and assigning the codes to our pre-defined categories, the hermeneutic-circle will be employed to redefine the categories and create new ones where needed. This will be done to extract as much information as possible from the systematic reviews and provide more nuance to the issue of heterogeneity in those types of evidence syntheses. This specific procedure is selected to suit our research question and the overall purpose of this paper. However, It should be noted that no absolute guidelines for how to conduct a qualitative content analysis exists, making it a flexible but challenging research method.
+
+Note that this registration is part of a larger mixed methods study that will synthesise the results of this analysis with the evidence map provided by a scoping review. 
+
+## Sampling and case selection strategy*
+Please describe your sampling or recruitment strategy (examples include, but are not limited to: purposive, snowball, theoretical, and maximum variation sampling) and/or your case selection strategy (examples include, but are not limited to: typical case, most similar case, most different case, diverse case, and deviant case).
+
+Please provide a short rationale for why you selected this type of strategy.
+
+NA
+
+## Data source(s) and data type(s)*
+Please describe the type(s) of data you will be using. In describing the data, distinguish between data that existed prior to your study (e.g. archival documents, newspaper articles, [social] media, secondary literature, or data collected for a different purpose than the current study) and original data (i.e. data that will be collected/generated for the current study).
+
+The data consists of systematic reviews covering psychological phenomena between 2017 and 2024. Thus the secondary sources are similar to that which would be coverd in a litterature review. 
+
+ 
+## Data collection methods*
+Please describe your method of data collection or data generation. Examples of methods include (but are not restricted to) interviews, focus groups, enabling techniques, self-reports, field notes, diaries, (participative) observation, archival research, or mixed methods. Please provide a brief rationale for why you plan to use this particular data collection/generation method in your study.
+
+A search for literature similar to that of a systematic review was conducted. No eligibility criteria for inclusion exists, this search procedure is simply a means of generating data from secondary sources and should not be confused with a systematic literature search. We follow the same search procedure as in the parallell scoping review with some alterations. The search terms were renamed to search for systematic-reviews and heterogeneity, the publication period was set to include studies published after 2017 in order to capture current research without being constrained to particular years as was done in the scoping review.
+ 
+## Data collection tools, instruments or plans*
+Please describe or upload the tools, instruments or plans you will use in collecting or generating your data. Examples could be (but are not limited to): topic guide, interview questionnaire, focus group guide, observation scheme, creative tools (e.g. photos, videos, musical pieces, paintings, etc.), or a description of your archival search plans.
+
+ 
+You may attach up to 5 file(s) to this question. Files cannot total over 5GB in size.
+
+Uploaded files will automatically be archived in this registration. They will also be added to a related project that will be created for this registration.
+
+## Stopping criteria*
+Please describe the criteria or rationale behind when you will stop data generation or collection. Possible criteria include (but are not restricted to): data saturation*, when inclusion criteria are satisfied, resource constraints (e.g. time/funding), or when the analysis has produced an enriching answer to the research question(s).
+
+No stopping criteria exists, a screening of all the documents found in the 
+
+Data analysis approach*
+Please specify the type and details of your data analysis approach. Examples of approaches include (but are not limited to): narrative analysis, phenomenological analysis, thematic analysis, content analysis, psychoanalytic analysis, grounded theory, process tracing, comparative analysis, or discourse analysis.
+
+If multiple interpretations of your approach exist, please specify the version you will be using.
+
+Please provide a rationale for why your selected data analytic approach is appropriate given your study’s aim(s).
+
+ 
+## Data analysis process*
+Please describe what your process of data analysis will look like. Questions to keep in mind could be (but are not limited to):
+* who will be involved in the data analysis, and in what role?
+* if relevant, indicate any procedures that will be used to turn “raw” data into analyzable form (e.g., a coding scheme)
+* if relevant, indicate any evidentiary criteria that will be used to assess any hypotheses (e.g., what evidence will count as consistent or inconsistent with a given proposition)
+* if relevant, what software or analytic tools will you use and how will you use them?
+
+## Reflection on your positionality (optional)
+Feel free to reflect on your relation to or association with the studied phenomenon and your position in the research setting/field, including your academic/personal standpoints, assumptions and values. In addition, if there is a potential conflict of interest [whether you have a previous relationship with the studied phenomenon, and if you consider that there are previous positions or assumptions that may influence the present study] that can arise, you may want to report that here.
+
+
+Overall, the multilevel meta-analysis indicated a significant and positive result for neonatal imitation but also significant heterogeneity in the body of research. We found no evidence that the substantial heterogeneity in study results could be accounted for by methodological variables identified

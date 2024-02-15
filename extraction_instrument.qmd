@@ -6,13 +6,13 @@ editor: visual
 
 ## Eligibility Criteria
 
-|     |                                          |        |
-|-----|------------------------------------------|--------|
-| 1   | Is the study a meta-analysis?            | Yes/no |
-| 2   | Does it cover a psychological construct? | Yes/no |
-| 3   | Is it published in 2022 or 2021?         | Yes/no |
+|     |                                               |        |
+|-----|-----------------------------------------------|--------|
+| 1   | Is the study a meta-analysis?                 | Yes/no |
+| 2   | Do the study cover a psychological construct? | Yes/no |
+| 3   | Is the study published in 2022 or 2021?       | Yes/no |
 
-Only proceed with coding if all criteria are met
+Only proceed with coding if all criteria are met.
 
 ## General Information
 
@@ -29,10 +29,10 @@ Only proceed with coding if all criteria are met
 | 13  | What type of model is used?                   | Free text |
 | 14  | What field of psychology does it cover?       | Free text |
 
-## RQ1: How does study eligibility criteria address heterogeneity?
+## RQ1: How do the study eligibility criteria address heterogeneity?
 
 |      | Variable                                                                                        | Entry type     | Contingency              |
-|-----------|---------------------------------------|-----------|-----------|
+|------|-------------------------------------------------------------------------------------------------|----------------|--------------------------|
 | 1.1  | What are the exclusion criteria?                                                                | Free text      |                          |
 | 1.2  | What are the inclusion criteria?                                                                | Free text      |                          |
 | 1.3  | Quote any mention of comparability across studies                                               | Free text      |                          |
@@ -43,14 +43,14 @@ Only proceed with coding if all criteria are met
 | 1.8  | Are the included studies surface similar? e.g appear to cover the same psychological construct? | Yes/no         | If yes, answer 1.9       |
 | 1.9  | What are the key characteristics of the construct under investigation?                          | Free text      |                          |
 | 1.10 | What are the study characteristics deemed irrelevant?                                           | Free text      |                          |
-| 1.11 | Does the concept under investigation have a causal explanation?                                 | Yes/no         | If yes, answer 1.12      |
-| 1.12 | Does all studies share causal explanation?                                                      | Yes/no/unclear | If answered, answer 1.13 |
+| 1.11 | Do the concept under investigation have a causal explanation?                                   | Yes/no         | If yes, answer 1.12      |
+| 1.12 | Do all studies share causal explanation?                                                        | Yes/no/unclear | If answered, answer 1.13 |
 | 1.13 | What are the implications of the answer to 1.12?                                                | Free text      |                          |
 
 ## RQ2: How is heterogeneity present in the studies?
 
 |     | Variable                                                                 | Entry type | Contingency        |
-|-----------|---------------------------------------|-----------|-----------|
+|-----|--------------------------------------------------------------------------|------------|--------------------|
 | 2.1 | Are there both experimental and non-experimental designs?                | Yes/no     |                    |
 | 2.2 | Are there both between and within group designs?                         | Yes/no     |                    |
 | 2.3 | Are there multiple experimental conditions?                              | Yes/no     |                    |
@@ -62,14 +62,14 @@ Only proceed with coding if all criteria are met
 ## RQ3: How is statistical heterogeneity estimated?
 
 |     | Variable                                        | Entry type                           | Contingency |
-|-------------|---------------------------|--------------------|-------------|
+|-----|-------------------------------------------------|--------------------------------------|-------------|
 | 3.1 | How is statistical heterogeneity quantified?    | Statistic (e.g $\tau^2$, $I^2$, *Q)* |             |
 | 3.2 | What is the value of the reported heterogeneity | Numeric                              |             |
 
 ## RQ4: How is statistical heterogeneity addressed?
 
 |     | Variable                                 | Entry type | Contingency        |
-|-------------|--------------------------------|-------------|--------------|
+|-----|------------------------------------------|------------|--------------------|
 | 4.1 | Is there ad-hoc exclusion of studies?    | Yes/no     |                    |
 | 4.2 | Was meta-regression conducted?           | Yes/no     | If yes, answer 4.3 |
 | 4.3 | What was adjusted for in the regression? | Free text  |                    |
